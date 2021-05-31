@@ -1,0 +1,11 @@
+[package]
+name = "medium-raw-sql"
+version = "0.1.0"
+authors = ["ashish"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+diesel = { version = "1.4.4", features = ["postgres", "uuid", "r2d2", "chrono"] }
+dotenv = "0.15.0"
